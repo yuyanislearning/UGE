@@ -1,0 +1,16 @@
+,Model,Accuracy,AUC,Recall,Prec.,F1,Kappa,MCC,auprc,TT (Sec)
+nb,Naive Bayes,0.8154,0.6328,0.3513,0.0417,0.0745,0.0382,0.0664,0.0294,0.068
+knn,K Neighbors Classifier,0.9787,0.5592,0.004,0.1,0.0077,0.0071,0.0187,0.025,0.26
+ada,Ada Boost Classifier,0.9777,0.6154,0.004,0.1,0.0077,0.0052,0.0152,0.025,17.558
+gbc,Gradient Boosting Classifier,0.9688,0.5943,0.0207,0.0368,0.0262,0.0124,0.0127,0.0235,91.636
+dt,Decision Tree Classifier,0.9516,0.5079,0.0447,0.0297,0.0356,0.0117,0.0121,0.0222,16.128
+lr,Logistic Regression,0.9786,0.6334,0.0,0.0,0.0,-0.0005,-0.0013,0.0211,1.179
+svm,SVM - Linear Kernel,0.9779,0.0,0.0,0.0,0.0,-0.0018,-0.003,0.0211,0.383
+ridge,Ridge Classifier,0.9789,0.0,0.0,0.0,0.0,0.0,0.0,0.0211,0.112
+rf,Random Forest Classifier,0.9788,0.57,0.0,0.0,0.0,-0.0002,-0.0004,0.0211,2.878
+qda,Quadratic Discriminant Analysis,0.9789,0.5,0.0,0.0,0.0,0.0,0.0,0.0211,2.735
+lda,Linear Discriminant Analysis,0.9782,0.6311,0.0,0.0,0.0,-0.0013,-0.0032,0.0211,22.793
+et,Extra Trees Classifier,0.9789,0.5865,0.0,0.0,0.0,0.0,0.0,0.0211,2.619
+xgboost,Extreme Gradient Boosting,0.9789,0.6321,0.0,0.0,0.0,0.0,0.0,0.0211,4.349
+lightgbm,Light Gradient Boosting Machine,0.9788,0.649,0.0,0.0,0.0,-0.0002,-0.0004,0.0211,30.861
+dummy,Dummy Classifier,0.9789,0.5,0.0,0.0,0.0,0.0,0.0,0.0211,0.055

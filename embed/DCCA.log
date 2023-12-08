@@ -1,0 +1,236 @@
+[ INFO : 2023-11-03 16:48:36,378 ] - DataParallel(
+  (module): DeepCCA(
+    (model1): MlpNet(
+      (layers): ModuleList(
+        (0): Sequential(
+          (0): Linear(in_features=200, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (1): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (2): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (3): Sequential(
+          (0): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+          (1): Linear(in_features=128, out_features=10, bias=True)
+        )
+      )
+    )
+    (model2): MlpNet(
+      (layers): ModuleList(
+        (0): Sequential(
+          (0): Linear(in_features=1536, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (1): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (2): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (3): Sequential(
+          (0): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+          (1): Linear(in_features=128, out_features=10, bias=True)
+        )
+      )
+    )
+  )
+)
+[ INFO : 2023-11-03 16:48:36,380 ] - RMSprop (
+Parameter Group 0
+    alpha: 0.99
+    centered: False
+    eps: 1e-08
+    lr: 0.001
+    momentum: 0
+    weight_decay: 1e-05
+)
+[ INFO : 2023-11-03 16:49:45,885 ] - DataParallel(
+  (module): DeepCCA(
+    (model1): MlpNet(
+      (layers): ModuleList(
+        (0): Sequential(
+          (0): Linear(in_features=200, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (1): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (2): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (3): Sequential(
+          (0): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+          (1): Linear(in_features=128, out_features=10, bias=True)
+        )
+      )
+    )
+    (model2): MlpNet(
+      (layers): ModuleList(
+        (0): Sequential(
+          (0): Linear(in_features=1536, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (1): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (2): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (3): Sequential(
+          (0): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+          (1): Linear(in_features=128, out_features=10, bias=True)
+        )
+      )
+    )
+  )
+)
+[ INFO : 2023-11-03 16:49:45,886 ] - RMSprop (
+Parameter Group 0
+    alpha: 0.99
+    centered: False
+    eps: 1e-08
+    lr: 0.001
+    momentum: 0
+    weight_decay: 1e-05
+)
+[ INFO : 2023-11-03 16:51:25,308 ] - DataParallel(
+  (module): DeepCCA(
+    (model1): MlpNet(
+      (layers): ModuleList(
+        (0): Sequential(
+          (0): Linear(in_features=200, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (1): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (2): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (3): Sequential(
+          (0): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+          (1): Linear(in_features=128, out_features=10, bias=True)
+        )
+      )
+    )
+    (model2): MlpNet(
+      (layers): ModuleList(
+        (0): Sequential(
+          (0): Linear(in_features=1536, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (1): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (2): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (3): Sequential(
+          (0): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+          (1): Linear(in_features=128, out_features=10, bias=True)
+        )
+      )
+    )
+  )
+)
+[ INFO : 2023-11-03 16:51:25,308 ] - RMSprop (
+Parameter Group 0
+    alpha: 0.99
+    centered: False
+    eps: 1e-08
+    lr: 0.001
+    momentum: 0
+    weight_decay: 1e-05
+)
+[ INFO : 2023-11-03 16:54:07,269 ] - DataParallel(
+  (module): DeepCCA(
+    (model1): MlpNet(
+      (layers): ModuleList(
+        (0): Sequential(
+          (0): Linear(in_features=1536, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (1): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (2): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (3): Sequential(
+          (0): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+          (1): Linear(in_features=128, out_features=10, bias=True)
+        )
+      )
+    )
+    (model2): MlpNet(
+      (layers): ModuleList(
+        (0): Sequential(
+          (0): Linear(in_features=768, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (1): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (2): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (3): Sequential(
+          (0): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+          (1): Linear(in_features=128, out_features=10, bias=True)
+        )
+      )
+    )
+  )
+)
+[ INFO : 2023-11-03 16:54:07,270 ] - RMSprop (
+Parameter Group 0
+    alpha: 0.99
+    centered: False
+    eps: 1e-08
+    lr: 0.001
+    momentum: 0
+    weight_decay: 1e-05
+)
